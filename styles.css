@@ -1,1 +1,108 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    transition: background 0.5s, color 0.5s;
+}
 
+/* HEADER PROFESIONAL */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #222;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Título */
+header h1 {
+    margin: 0;
+}
+
+/* Navegación centrada */
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+/* Botones del menú */
+nav button {
+    margin: 5px;
+    padding: 10px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: darkorange;
+}
+
+/* LOGO A LA DERECHA */
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* SECCIONES */
+.seccion {
+    padding: 20px;
+    animation: fadeIn 0.5s;
+}
+
+.oculto {
+    display: none;
+}
+
+/* PRODUCTOS */
+.producto {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* BOTONES GENERALES */
+button {
+    background: green;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+/* ANIMACION */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* DARK MODE */
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark .producto {
+    background: #1e1e1e;
+}
+
+.dark header {
+    background: black;
+}
