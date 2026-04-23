@@ -1,1 +1,29 @@
+<section id="inicio" class="seccion">
+    <h2>Bienvenido</h2>
+    <p>Tu ferretería de confianza</p>
+</section>
 
+<section id="productos" class="seccion oculto">
+    <h2>Productos</h2>
+
+    <div class="producto">
+        <img src="img/martillo.jpg">
+        <h3>Martillo</h3>
+        <p>Bs 50</p>
+        <button onclick="agregarCarrito('Martillo',50)">Agregar</button>
+    </div>
+
+    <div class="producto">
+        <img src="img/taladro.jpg">
+        <h3>Taladro</h3>
+        <p>Bs 350</p>
+        <button onclick="agregarCarrito('Taladro',350)">Agregar</button>
+    </div>
+
+</section>
+
+<section id="carrito" class="seccion oculto">
+    <h2>Carrito</h2>
+    <ul id="listaCarrito"></ul>
+    <h3>Total: Bs <span id="total">0</span></h3>
+</section>
