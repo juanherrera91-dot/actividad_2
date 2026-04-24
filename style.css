@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pie de Página</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .contenido {
+            min-height: 90vh;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 10px;
+        }
+
+        footer a {
+            color: #00aced;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contenido">
+    <h1>Contenido de la página</h1>
+    <p>Aquí va tu contenido principal...</p>
+</div>
+
+<footer>
+    <p>© 2026 Mi Sitio Web</p>
+    <p>
+        <a href="#">Inicio</a> |
+        <a href="#">Servicios</a> |
+        <a href="#">Contacto</a>
+    </p>
+</footer>
+
+</body>
+</html>
